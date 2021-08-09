@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.calculator;
 
 public class Fit {
     public static double manWeight(short height) {
@@ -15,5 +15,7 @@ public class Fit {
         short height = 187;
         double man = Fit.manWeight(height);
         System.out.println("Man is " + man);
+        double woman = Fit.womanWeight(height);
+        System.out.println("Woman wight is" + woman);
     }
 }
