@@ -38,7 +38,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.1.2</version>
+                <version>3.1.0</version>
                 <executions>
                     <execution>
                         <id>validate</id>
@@ -58,4 +58,7 @@
             </plugin>
         </plugins>
     </build>
+
+
+
 </project>
